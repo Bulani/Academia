@@ -1,0 +1,26 @@
+C:\Users\Fabriq\Documents\Visual Studio 2012\Projects\TesteI9_CSharp\TesteI9\TesteI9\bin\Release\TesteI9.exe.config
+C:\Users\Fabriq\Documents\Visual Studio 2012\Projects\TesteI9_CSharp\TesteI9\TesteI9\bin\Release\TesteI9.exe
+C:\Users\Fabriq\Documents\Visual Studio 2012\Projects\TesteI9_CSharp\TesteI9\TesteI9\bin\Release\TesteI9.pdb
+C:\Users\Fabriq\Documents\Visual Studio 2012\Projects\TesteI9_CSharp\TesteI9\TesteI9\obj\Release\TesteI9.Form1.resources
+C:\Users\Fabriq\Documents\Visual Studio 2012\Projects\TesteI9_CSharp\TesteI9\TesteI9\obj\Release\TesteI9.Properties.Resources.resources
+C:\Users\Fabriq\Documents\Visual Studio 2012\Projects\TesteI9_CSharp\TesteI9\TesteI9\obj\Release\TesteI9.csproj.GenerateResource.Cache
+C:\Users\Fabriq\Documents\Visual Studio 2012\Projects\TesteI9_CSharp\TesteI9\TesteI9\obj\Release\TesteI9.exe
+C:\Users\Fabriq\Documents\Visual Studio 2012\Projects\TesteI9_CSharp\TesteI9\TesteI9\obj\Release\TesteI9.pdb
+C:\Users\Fabriq\Documents\Visual Studio 2012\Projects\TesteI9_CSharp\TesteI9\TesteI9\obj\Release\TesteI9.csprojResolveAssemblyReference.cache
+C:\Users\Fabriq\Documents\Repositóriowc\Exemplos\Não fiscais\I9\TesteI9_CSharp\TesteI9_CSharp\TesteI9\TesteI9\bin\Release\TesteI9.exe.config
+C:\Users\Fabriq\Documents\Repositóriowc\Exemplos\Não fiscais\I9\TesteI9_CSharp\TesteI9_CSharp\TesteI9\TesteI9\obj\Release\TesteI9.exe
+C:\Users\Fabriq\Documents\Repositóriowc\Exemplos\Não fiscais\I9\TesteI9_CSharp\TesteI9_CSharp\TesteI9\TesteI9\obj\Release\TesteI9.pdb
+C:\Users\Fabriq\Documents\Repositóriowc\Exemplos\Não fiscais\I9\TesteI9_CSharp\TesteI9_CSharp\TesteI9\TesteI9\bin\Release\TesteI9.exe
+C:\Users\Fabriq\Documents\Repositóriowc\Exemplos\Não fiscais\I9\TesteI9_CSharp\TesteI9_CSharp\TesteI9\TesteI9\bin\Release\TesteI9.pdb
+C:\Users\Fabriq\Documents\Repositóriowc\Exemplos\Não fiscais\I9\TesteI9_CSharp\TesteI9_CSharp\TesteI9\TesteI9\obj\Release\TesteI9.csprojResolveAssemblyReference.cache
+C:\Users\Fabriq\Documents\Repositóriowc\Exemplos\Não fiscais\I9\TesteI9_CSharp\TesteI9_CSharp\TesteI9\TesteI9\obj\Release\TesteI9.Form1.resources
+C:\Users\Fabriq\Documents\Repositóriowc\Exemplos\Não fiscais\I9\TesteI9_CSharp\TesteI9_CSharp\TesteI9\TesteI9\obj\Release\TesteI9.Properties.Resources.resources
+C:\Users\Fabriq\Documents\Repositóriowc\Exemplos\Não fiscais\I9\TesteI9_CSharp\TesteI9_CSharp\TesteI9\TesteI9\obj\Release\TesteI9.csproj.GenerateResource.Cache
+C:\Users\fabriq\Desktop\repowc\Exemplos\Não fiscais\I9\TesteI9_CSharp\TesteI9_CSharp\TesteI9\TesteI9\bin\Release\TesteI9.exe.config
+C:\Users\fabriq\Desktop\repowc\Exemplos\Não fiscais\I9\TesteI9_CSharp\TesteI9_CSharp\TesteI9\TesteI9\bin\Release\TesteI9.exe
+C:\Users\fabriq\Desktop\repowc\Exemplos\Não fiscais\I9\TesteI9_CSharp\TesteI9_CSharp\TesteI9\TesteI9\bin\Release\TesteI9.pdb
+C:\Users\fabriq\Desktop\repowc\Exemplos\Não fiscais\I9\TesteI9_CSharp\TesteI9_CSharp\TesteI9\TesteI9\obj\Release\TesteI9.Form1.resources
+C:\Users\fabriq\Desktop\repowc\Exemplos\Não fiscais\I9\TesteI9_CSharp\TesteI9_CSharp\TesteI9\TesteI9\obj\Release\TesteI9.Properties.Resources.resources
+C:\Users\fabriq\Desktop\repowc\Exemplos\Não fiscais\I9\TesteI9_CSharp\TesteI9_CSharp\TesteI9\TesteI9\obj\Release\TesteI9.csproj.GenerateResource.Cache
+C:\Users\fabriq\Desktop\repowc\Exemplos\Não fiscais\I9\TesteI9_CSharp\TesteI9_CSharp\TesteI9\TesteI9\obj\Release\TesteI9.exe
+C:\Users\fabriq\Desktop\repowc\Exemplos\Não fiscais\I9\TesteI9_CSharp\TesteI9_CSharp\TesteI9\TesteI9\obj\Release\TesteI9.pdb
