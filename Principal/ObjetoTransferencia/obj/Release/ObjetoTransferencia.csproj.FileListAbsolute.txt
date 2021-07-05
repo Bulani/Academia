@@ -1,0 +1,5 @@
+C:\Users\Joao\Desktop\Projeto Academia\Sistema\Principal\ObjetoTransferencia\bin\Release\ObjetoTransferencia.dll
+C:\Users\Joao\Desktop\Projeto Academia\Sistema\Principal\ObjetoTransferencia\bin\Release\ObjetoTransferencia.pdb
+C:\Users\Joao\Desktop\Projeto Academia\Sistema\Principal\ObjetoTransferencia\obj\Release\ObjetoTransferencia.csproj.CoreCompileInputs.cache
+C:\Users\Joao\Desktop\Projeto Academia\Sistema\Principal\ObjetoTransferencia\obj\Release\ObjetoTransferencia.dll
+C:\Users\Joao\Desktop\Projeto Academia\Sistema\Principal\ObjetoTransferencia\obj\Release\ObjetoTransferencia.pdb

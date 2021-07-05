@@ -1,0 +1,10 @@
+C:\Users\Joao\Desktop\Projeto Academia\Sistema\Principal\AcessoBancoDados\bin\Debug\AcessoBancoDados.dll.config
+C:\Users\Joao\Desktop\Projeto Academia\Sistema\Principal\AcessoBancoDados\bin\Debug\AcessoBancoDados.dll
+C:\Users\Joao\Desktop\Projeto Academia\Sistema\Principal\AcessoBancoDados\bin\Debug\AcessoBancoDados.pdb
+C:\Users\Joao\Desktop\Projeto Academia\Sistema\Principal\AcessoBancoDados\obj\Debug\AcessoBancoDados.csprojResolveAssemblyReference.cache
+C:\Users\Joao\Desktop\Projeto Academia\Sistema\Principal\AcessoBancoDados\obj\Debug\AcessoBancoDados.csproj.CoreCompileInputs.cache
+C:\Users\Joao\Desktop\Projeto Academia\Sistema\Principal\AcessoBancoDados\obj\Debug\AcessoBancoDados.dll
+C:\Users\Joao\Desktop\Projeto Academia\Sistema\Principal\AcessoBancoDados\obj\Debug\AcessoBancoDados.pdb
+C:\Users\Joao\Desktop\Projeto Academia\Sistema\Principal\AcessoBancoDados\bin\Debug\MySql.Data.dll
+C:\Users\Joao\Desktop\Projeto Academia\Sistema\Principal\AcessoBancoDados\bin\Debug\ObjetoTransferencia.dll
+C:\Users\Joao\Desktop\Projeto Academia\Sistema\Principal\AcessoBancoDados\bin\Debug\ObjetoTransferencia.pdb

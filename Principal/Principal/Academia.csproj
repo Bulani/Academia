@@ -1,0 +1,520 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BCABF843-AE36-4F75-AA4D-433AA5DAE3EC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Principal</RootNamespace>
+    <AssemblyName>Principal</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>gym_ico.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Principal.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="JWT, Version=1.3.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\JWT.1.3.4\lib\3.5\JWT.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.9.10.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySqlBackup.NET.2.0.12\lib\net45\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="MySqlBackup, Version=2.0.12.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySqlBackup.NET.2.0.12\lib\net45\MySqlBackup.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AcaoNaTela.cs" />
+    <Compile Include="AppCode\ClassesControle\AlunoControle.cs" />
+    <Compile Include="AppCode\ClassesControle\BackupControle.cs" />
+    <Compile Include="AppCode\ClassesControle\CaixaControle.cs" />
+    <Compile Include="AppCode\ClassesControle\ContasAReceberControle.cs" />
+    <Compile Include="AppCode\ClassesControle\ContratoControle.cs" />
+    <Compile Include="AppCode\ClassesControle\EquipamentoControle.cs" />
+    <Compile Include="AppCode\ClassesControle\ExercicioControle.cs" />
+    <Compile Include="AppCode\ClassesControle\GrupoTreinoControle.cs" />
+    <Compile Include="AppCode\ClassesControle\ModalidadeControle.cs" />
+    <Compile Include="AppCode\ClassesControle\RepeticaoControle.cs" />
+    <Compile Include="AppCode\ClassesControle\TreinoControle.cs" />
+    <Compile Include="AppCode\ClassesModelo\Aluno.cs" />
+    <Compile Include="AppCode\ClassesModelo\Caixa.cs" />
+    <Compile Include="AppCode\ClassesModelo\CategoriaTreino.cs" />
+    <Compile Include="AppCode\ClassesModelo\Contas_Receber_Movcaixa.cs" />
+    <Compile Include="AppCode\ClassesModelo\Conta_Receber.cs" />
+    <Compile Include="AppCode\ClassesModelo\Contrato.cs" />
+    <Compile Include="AppCode\ClassesModelo\DiaHoraModalidade.cs" />
+    <Compile Include="AppCode\ClassesModelo\Empresa.cs" />
+    <Compile Include="AppCode\ClassesModelo\Equipamento.cs" />
+    <Compile Include="AppCode\ClassesModelo\Exercicio.cs" />
+    <Compile Include="AppCode\ClassesModelo\Formas_pgto.cs" />
+    <Compile Include="AppCode\ClassesModelo\Funcionario.cs" />
+    <Compile Include="AppCode\ClassesModelo\Modalidade.cs" />
+    <Compile Include="AppCode\ClassesModelo\Mov_Caixa.cs" />
+    <Compile Include="AppCode\ClassesModelo\Plano.cs" />
+    <Compile Include="AppCode\ClassesModelo\PlanoContratoAluno.cs" />
+    <Compile Include="AppCode\ClassesModelo\Repeticao.cs" />
+    <Compile Include="AppCode\ClassesModelo\Treino.cs" />
+    <Compile Include="AppCode\DAL\AlunoDAL.cs" />
+    <Compile Include="AppCode\DAL\BackupDAL.cs" />
+    <Compile Include="AppCode\DAL\CaixaDAL.cs" />
+    <Compile Include="AppCode\DAL\Contas_receberDAL.cs" />
+    <Compile Include="AppCode\DAL\Contas_receber_movcaixaDAL.cs" />
+    <Compile Include="AppCode\DAL\ContratoDAL.cs" />
+    <Compile Include="AppCode\DAL\GrupoTreinoDAL.cs" />
+    <Compile Include="AppCode\DAL\DiaHoraModalidadeDAL.cs" />
+    <Compile Include="AppCode\DAL\EmpresaDAL.cs" />
+    <Compile Include="AppCode\DAL\EquipamentoDAL.cs" />
+    <Compile Include="AppCode\DAL\ExercicioDAL.cs" />
+    <Compile Include="AppCode\DAL\FuncionarioDAL.cs" />
+    <Compile Include="AppCode\DAL\ModalidadeDAL.cs" />
+    <Compile Include="AppCode\ClassesControle\PlanoControle.cs" />
+    <Compile Include="AppCode\DAL\Mov_CaixaDAL.cs" />
+    <Compile Include="AppCode\DAL\PlanoDAL.cs" />
+    <Compile Include="AppCode\DAL\RepeticaoDAL.cs" />
+    <Compile Include="AppCode\DAL\TreinoDAL.cs" />
+    <Compile Include="AppCode\Funcoes\ArquivosINI.cs" />
+    <Compile Include="FrmCaixas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCaixas.Designer.cs">
+      <DependentUpon>FrmCaixas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmConfiguracoes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConfiguracoes.Designer.cs">
+      <DependentUpon>FrmConfiguracoes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmContasReceber.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmContasReceber.Designer.cs">
+      <DependentUpon>FrmContasReceber.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmContratoPlano.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmContratoPlano.Designer.cs">
+      <DependentUpon>FrmContratoPlano.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmContratoSelecionar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmContratoSelecionar.Designer.cs">
+      <DependentUpon>FrmContratoSelecionar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmExerciciosTreino.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmExerciciosTreino.Designer.cs">
+      <DependentUpon>FrmExerciciosTreino.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGestaoAlunos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGestaoAlunos.Designer.cs">
+      <DependentUpon>FrmGestaoAlunos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAlunoSelecionar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAlunoSelecionar.Designer.cs">
+      <DependentUpon>FrmAlunoSelecionar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGestaoDeRepeticao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGestaoDeRepeticao.Designer.cs">
+      <DependentUpon>FrmGestaoDeRepeticao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGestaoEmpresa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGestaoEmpresa.Designer.cs">
+      <DependentUpon>FrmGestaoEmpresa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmExercicios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmExercicios.Designer.cs">
+      <DependentUpon>FrmExercicios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGestaoEquipamentos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGestaoEquipamentos.Designer.cs">
+      <DependentUpon>FrmGestaoEquipamentos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEquipamentos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEquipamentos.Designer.cs">
+      <DependentUpon>FrmEquipamentos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGestaoFuncionarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGestaoFuncionarios.Designer.cs">
+      <DependentUpon>FrmGestaoFuncionarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmFuncionarioSelecionar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmFuncionarioSelecionar.Designer.cs">
+      <DependentUpon>FrmFuncionarioSelecionar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGestaoExercicios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGestaoExercicios.Designer.cs">
+      <DependentUpon>FrmGestaoExercicios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGestaoGruposTreinos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGestaoGruposTreinos.Designer.cs">
+      <DependentUpon>FrmGestaoGruposTreinos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGestaoModalidades.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGestaoModalidades.Designer.cs">
+      <DependentUpon>FrmGestaoModalidades.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGestaoPlanos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGestaoPlanos.Designer.cs">
+      <DependentUpon>FrmGestaoPlanos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGestaoTreinos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGestaoTreinos.Designer.cs">
+      <DependentUpon>FrmGestaoTreinos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGruposTreinos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGruposTreinos.Designer.cs">
+      <DependentUpon>FrmGruposTreinos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmModalidadeSelecionar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmModalidadeSelecionar.Designer.cs">
+      <DependentUpon>FrmModalidadeSelecionar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPlanos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPlanos.Designer.cs">
+      <DependentUpon>FrmPlanos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrincipal.Designer.cs">
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmReceberPGTO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmReceberPGTO.Designer.cs">
+      <DependentUpon>FrmReceberPGTO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRelatorio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRelatorio.Designer.cs">
+      <DependentUpon>FrmRelatorio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRepeticoes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRepeticoes.Designer.cs">
+      <DependentUpon>FrmRepeticoes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTreinos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTreinos.Designer.cs">
+      <DependentUpon>FrmTreinos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\ListaDeAlunos.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ListaDeAlunos.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="AppCode\Funcoes\ValidaCNPJ.cs" />
+    <Compile Include="AppCode\Funcoes\ValidaCPF.cs" />
+    <EmbeddedResource Include="FrmCaixas.resx">
+      <DependentUpon>FrmCaixas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmConfiguracoes.resx">
+      <DependentUpon>FrmConfiguracoes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmContasReceber.resx">
+      <DependentUpon>FrmContasReceber.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmContratoPlano.resx">
+      <DependentUpon>FrmContratoPlano.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmContratoSelecionar.resx">
+      <DependentUpon>FrmContratoSelecionar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmExerciciosTreino.resx">
+      <DependentUpon>FrmExerciciosTreino.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGestaoAlunos.resx">
+      <DependentUpon>FrmGestaoAlunos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAlunoSelecionar.resx">
+      <DependentUpon>FrmAlunoSelecionar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGestaoDeRepeticao.resx">
+      <DependentUpon>FrmGestaoDeRepeticao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGestaoEmpresa.resx">
+      <DependentUpon>FrmGestaoEmpresa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmExercicios.resx">
+      <DependentUpon>FrmExercicios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGestaoEquipamentos.resx">
+      <DependentUpon>FrmGestaoEquipamentos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEquipamentos.resx">
+      <DependentUpon>FrmEquipamentos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGestaoFuncionarios.resx">
+      <DependentUpon>FrmGestaoFuncionarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmFuncionarioSelecionar.resx">
+      <DependentUpon>FrmFuncionarioSelecionar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGestaoExercicios.resx">
+      <DependentUpon>FrmGestaoExercicios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGestaoGruposTreinos.resx">
+      <DependentUpon>FrmGestaoGruposTreinos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGestaoModalidades.resx">
+      <DependentUpon>FrmGestaoModalidades.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGestaoPlanos.resx">
+      <DependentUpon>FrmGestaoPlanos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGestaoTreinos.resx">
+      <DependentUpon>FrmGestaoTreinos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGruposTreinos.resx">
+      <DependentUpon>FrmGruposTreinos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmModalidadeSelecionar.resx">
+      <DependentUpon>FrmModalidadeSelecionar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPlanos.resx">
+      <DependentUpon>FrmPlanos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrincipal.resx">
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmReceberPGTO.resx">
+      <DependentUpon>FrmReceberPGTO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRelatorio.resx">
+      <DependentUpon>FrmRelatorio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRepeticoes.resx">
+      <DependentUpon>FrmRepeticoes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTreinos.resx">
+      <DependentUpon>FrmTreinos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\ListaDeAlunos.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ListaDeAlunos.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="DataSource\Aluno.datasource" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\funcionario_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\funcionario_consultar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\funcionario_edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\empresa_consultar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\empresa_edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modalidade_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modalidade_consultar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modalidade_edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gym_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder_open.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\config.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\config_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alunos_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modalidades_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\relatorio_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backup_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alunos_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alunos_edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alunos_pesquisar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="gym_ico.ico" />
+    <None Include="Resources\alunos_48.bmp" />
+    <None Include="Resources\pesquisar_32.png" />
+    <None Include="Resources\pesquisar_24.png" />
+    <None Include="Resources\peso_ico.ico" />
+    <None Include="Resources\exit_24.png" />
+    <None Include="Resources\edit_32.png" />
+    <None Include="Resources\edit_24.png" />
+    <None Include="Resources\delete_24.png" />
+    <None Include="Resources\add_32.png" />
+    <None Include="Resources\save 32.png" />
+    <None Include="Resources\gym_ico.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,92 @@
+C:\Users\Joao\Desktop\Projeto Academia 11-04-18\Principal\Principal\bin\Release\Principal.exe.config
+C:\Users\Joao\Desktop\Projeto Academia 11-04-18\Principal\Principal\bin\Release\Principal.exe
+C:\Users\Joao\Desktop\Projeto Academia 11-04-18\Principal\Principal\bin\Release\Principal.pdb
+C:\Users\Joao\Desktop\Projeto Academia 11-04-18\Principal\Principal\bin\Release\JWT.dll
+C:\Users\Joao\Desktop\Projeto Academia 11-04-18\Principal\Principal\bin\Release\Newtonsoft.Json.dll
+C:\Users\Joao\Desktop\Projeto Academia 11-04-18\Principal\Principal\bin\Release\Twilio.dll
+C:\Users\Joao\Desktop\Projeto Academia 11-04-18\Principal\Principal\bin\Release\Newtonsoft.Json.xml
+C:\Users\Joao\Desktop\Projeto Academia 11-04-18\Principal\Principal\bin\Release\Twilio.xml
+C:\Users\Joao\Desktop\Projeto Academia 11-04-18\Principal\Principal\obj\Release\Academia.csprojResolveAssemblyReference.cache
+C:\Users\Joao\Desktop\Projeto Academia 11-04-18\Principal\Principal\obj\Release\Principal.FrmExerciciosTreino.resources
+C:\Users\Joao\Desktop\Projeto Academia 11-04-18\Principal\Principal\obj\Release\Principal.FrmGestaoAlunos.resources
+C:\Users\Joao\Desktop\Projeto Academia 11-04-18\Principal\Principal\obj\Release\Principal.FrmAlunoSelecionar.resources
+C:\Users\Joao\Desktop\Projeto Academia 11-04-18\Principal\Principal\obj\Release\Principal.FrmGestaoDeRepeticao.resources
+C:\Users\Joao\Desktop\Projeto Academia 11-04-18\Principal\Principal\obj\Release\Principal.FrmGestaoEmpresa.resources
+C:\Users\Joao\Desktop\Projeto Academia 11-04-18\Principal\Principal\obj\Release\Principal.FrmExercicios.resources
+C:\Users\Joao\Desktop\Projeto Academia 11-04-18\Principal\Principal\obj\Release\Principal.FrmGestaoEquipamentos.resources
+C:\Users\Joao\Desktop\Projeto Academia 11-04-18\Principal\Principal\obj\Release\Principal.FrmEquipamentos.resources
+C:\Users\Joao\Desktop\Projeto Academia 11-04-18\Principal\Principal\obj\Release\Principal.FrmGestaoFuncionarios.resources
+C:\Users\Joao\Desktop\Projeto Academia 11-04-18\Principal\Principal\obj\Release\Principal.FrmFuncionarioSelecionar.resources
+C:\Users\Joao\Desktop\Projeto Academia 11-04-18\Principal\Principal\obj\Release\Principal.FrmGestaoExercicios.resources
+C:\Users\Joao\Desktop\Projeto Academia 11-04-18\Principal\Principal\obj\Release\Principal.FrmGestaoGruposTreinos.resources
+C:\Users\Joao\Desktop\Projeto Academia 11-04-18\Principal\Principal\obj\Release\Principal.FrmGestaoModalidades.resources
+C:\Users\Joao\Desktop\Projeto Academia 11-04-18\Principal\Principal\obj\Release\Principal.FrmGestaoTreinos.resources
+C:\Users\Joao\Desktop\Projeto Academia 11-04-18\Principal\Principal\obj\Release\Principal.FrmGruposTreinos.resources
+C:\Users\Joao\Desktop\Projeto Academia 11-04-18\Principal\Principal\obj\Release\Principal.FrmModalidadeSelecionar.resources
+C:\Users\Joao\Desktop\Projeto Academia 11-04-18\Principal\Principal\obj\Release\Principal.FrmPrincipal.resources
+C:\Users\Joao\Desktop\Projeto Academia 11-04-18\Principal\Principal\obj\Release\Principal.FrmRepeticoes.resources
+C:\Users\Joao\Desktop\Projeto Academia 11-04-18\Principal\Principal\obj\Release\Principal.FrmTreinos.resources
+C:\Users\Joao\Desktop\Projeto Academia 11-04-18\Principal\Principal\obj\Release\Principal.Properties.Resources.resources
+C:\Users\Joao\Desktop\Projeto Academia 11-04-18\Principal\Principal\obj\Release\Academia.csproj.GenerateResource.Cache
+C:\Users\Joao\Desktop\Projeto Academia 11-04-18\Principal\Principal\obj\Release\Academia.csproj.CoreCompileInputs.cache
+C:\Users\Joao\Desktop\Projeto Academia 11-04-18\Principal\Principal\obj\Release\Principal.exe
+C:\Users\Joao\Desktop\Projeto Academia 11-04-18\Principal\Principal\obj\Release\Principal.pdb
+C:\SISTEMA-ACADEMIA\repos\Principal\Principal\bin\Release\Principal.exe.config
+C:\SISTEMA-ACADEMIA\repos\Principal\Principal\bin\Release\Principal.exe
+C:\SISTEMA-ACADEMIA\repos\Principal\Principal\bin\Release\Principal.pdb
+C:\SISTEMA-ACADEMIA\repos\Principal\Principal\bin\Release\CrystalDecisions.CrystalReports.Engine.dll
+C:\SISTEMA-ACADEMIA\repos\Principal\Principal\bin\Release\CrystalDecisions.ReportSource.dll
+C:\SISTEMA-ACADEMIA\repos\Principal\Principal\bin\Release\CrystalDecisions.Shared.dll
+C:\SISTEMA-ACADEMIA\repos\Principal\Principal\bin\Release\CrystalDecisions.Windows.Forms.dll
+C:\SISTEMA-ACADEMIA\repos\Principal\Principal\bin\Release\FlashControlV71.dll
+C:\SISTEMA-ACADEMIA\repos\Principal\Principal\bin\Release\JWT.dll
+C:\SISTEMA-ACADEMIA\repos\Principal\Principal\bin\Release\MySql.Data.dll
+C:\SISTEMA-ACADEMIA\repos\Principal\Principal\bin\Release\MySqlBackup.dll
+C:\SISTEMA-ACADEMIA\repos\Principal\Principal\bin\Release\Newtonsoft.Json.dll
+C:\SISTEMA-ACADEMIA\repos\Principal\Principal\bin\Release\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\SISTEMA-ACADEMIA\repos\Principal\Principal\bin\Release\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\SISTEMA-ACADEMIA\repos\Principal\Principal\bin\Release\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\SISTEMA-ACADEMIA\repos\Principal\Principal\bin\Release\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\SISTEMA-ACADEMIA\repos\Principal\Principal\bin\Release\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\SISTEMA-ACADEMIA\repos\Principal\Principal\bin\Release\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\SISTEMA-ACADEMIA\repos\Principal\Principal\bin\Release\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\SISTEMA-ACADEMIA\repos\Principal\Principal\bin\Release\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\SISTEMA-ACADEMIA\repos\Principal\Principal\bin\Release\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\SISTEMA-ACADEMIA\repos\Principal\Principal\bin\Release\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\SISTEMA-ACADEMIA\repos\Principal\Principal\bin\Release\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\SISTEMA-ACADEMIA\repos\Principal\Principal\bin\Release\ShockwaveFlashObjects.dll
+C:\SISTEMA-ACADEMIA\repos\Principal\Principal\bin\Release\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\SISTEMA-ACADEMIA\repos\Principal\Principal\bin\Release\stdole.dll
+C:\SISTEMA-ACADEMIA\repos\Principal\Principal\bin\Release\Newtonsoft.Json.xml
+C:\SISTEMA-ACADEMIA\repos\Principal\Principal\obj\Release\Principal.FrmCaixas.resources
+C:\SISTEMA-ACADEMIA\repos\Principal\Principal\obj\Release\Principal.FrmConfiguracoes.resources
+C:\SISTEMA-ACADEMIA\repos\Principal\Principal\obj\Release\Principal.FrmContasReceber.resources
+C:\SISTEMA-ACADEMIA\repos\Principal\Principal\obj\Release\Principal.FrmContratoPlano.resources
+C:\SISTEMA-ACADEMIA\repos\Principal\Principal\obj\Release\Principal.FrmExerciciosTreino.resources
+C:\SISTEMA-ACADEMIA\repos\Principal\Principal\obj\Release\Principal.FrmGestaoAlunos.resources
+C:\SISTEMA-ACADEMIA\repos\Principal\Principal\obj\Release\Principal.FrmAlunoSelecionar.resources
+C:\SISTEMA-ACADEMIA\repos\Principal\Principal\obj\Release\Principal.FrmGestaoDeRepeticao.resources
+C:\SISTEMA-ACADEMIA\repos\Principal\Principal\obj\Release\Principal.FrmGestaoEmpresa.resources
+C:\SISTEMA-ACADEMIA\repos\Principal\Principal\obj\Release\Principal.FrmExercicios.resources
+C:\SISTEMA-ACADEMIA\repos\Principal\Principal\obj\Release\Principal.FrmGestaoEquipamentos.resources
+C:\SISTEMA-ACADEMIA\repos\Principal\Principal\obj\Release\Principal.FrmEquipamentos.resources
+C:\SISTEMA-ACADEMIA\repos\Principal\Principal\obj\Release\Principal.FrmGestaoFuncionarios.resources
+C:\SISTEMA-ACADEMIA\repos\Principal\Principal\obj\Release\Principal.FrmFuncionarioSelecionar.resources
+C:\SISTEMA-ACADEMIA\repos\Principal\Principal\obj\Release\Principal.FrmGestaoExercicios.resources
+C:\SISTEMA-ACADEMIA\repos\Principal\Principal\obj\Release\Principal.FrmGestaoGruposTreinos.resources
+C:\SISTEMA-ACADEMIA\repos\Principal\Principal\obj\Release\Principal.FrmGestaoModalidades.resources
+C:\SISTEMA-ACADEMIA\repos\Principal\Principal\obj\Release\Principal.FrmGestaoPlanos.resources
+C:\SISTEMA-ACADEMIA\repos\Principal\Principal\obj\Release\Principal.FrmGestaoTreinos.resources
+C:\SISTEMA-ACADEMIA\repos\Principal\Principal\obj\Release\Principal.FrmGruposTreinos.resources
+C:\SISTEMA-ACADEMIA\repos\Principal\Principal\obj\Release\Principal.FrmModalidadeSelecionar.resources
+C:\SISTEMA-ACADEMIA\repos\Principal\Principal\obj\Release\Principal.FrmPlanos.resources
+C:\SISTEMA-ACADEMIA\repos\Principal\Principal\obj\Release\Principal.FrmPrincipal.resources
+C:\SISTEMA-ACADEMIA\repos\Principal\Principal\obj\Release\Principal.FrmRelatorio.resources
+C:\SISTEMA-ACADEMIA\repos\Principal\Principal\obj\Release\Principal.FrmRepeticoes.resources
+C:\SISTEMA-ACADEMIA\repos\Principal\Principal\obj\Release\Principal.FrmTreinos.resources
+C:\SISTEMA-ACADEMIA\repos\Principal\Principal\obj\Release\Principal.Properties.Resources.resources
+C:\SISTEMA-ACADEMIA\repos\Principal\Principal\obj\Release\Academia.csproj.GenerateResource.cache
+C:\SISTEMA-ACADEMIA\repos\Principal\Principal\obj\Release\Academia.csproj.CoreCompileInputs.cache
+C:\SISTEMA-ACADEMIA\repos\Principal\Principal\obj\Release\Academia.csproj.CopyComplete
+C:\SISTEMA-ACADEMIA\repos\Principal\Principal\obj\Release\Principal.exe
+C:\SISTEMA-ACADEMIA\repos\Principal\Principal\obj\Release\Principal.pdb

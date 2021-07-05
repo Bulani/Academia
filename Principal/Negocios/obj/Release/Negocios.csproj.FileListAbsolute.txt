@@ -1,0 +1,12 @@
+C:\Users\Joao\Desktop\Projeto Academia\Sistema\Principal\Negocios\bin\Release\Negocios.dll
+C:\Users\Joao\Desktop\Projeto Academia\Sistema\Principal\Negocios\bin\Release\Negocios.pdb
+C:\Users\Joao\Desktop\Projeto Academia\Sistema\Principal\Negocios\bin\Release\AcessoBancoDados.dll
+C:\Users\Joao\Desktop\Projeto Academia\Sistema\Principal\Negocios\bin\Release\ObjetoTransferencia.dll
+C:\Users\Joao\Desktop\Projeto Academia\Sistema\Principal\Negocios\bin\Release\MySql.Data.dll
+C:\Users\Joao\Desktop\Projeto Academia\Sistema\Principal\Negocios\bin\Release\AcessoBancoDados.pdb
+C:\Users\Joao\Desktop\Projeto Academia\Sistema\Principal\Negocios\bin\Release\AcessoBancoDados.dll.config
+C:\Users\Joao\Desktop\Projeto Academia\Sistema\Principal\Negocios\bin\Release\ObjetoTransferencia.pdb
+C:\Users\Joao\Desktop\Projeto Academia\Sistema\Principal\Negocios\obj\Release\Negocios.csprojResolveAssemblyReference.cache
+C:\Users\Joao\Desktop\Projeto Academia\Sistema\Principal\Negocios\obj\Release\Negocios.csproj.CoreCompileInputs.cache
+C:\Users\Joao\Desktop\Projeto Academia\Sistema\Principal\Negocios\obj\Release\Negocios.dll
+C:\Users\Joao\Desktop\Projeto Academia\Sistema\Principal\Negocios\obj\Release\Negocios.pdb
